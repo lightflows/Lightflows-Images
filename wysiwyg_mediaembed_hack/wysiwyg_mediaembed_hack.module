@@ -1,0 +1,19 @@
+<?php
+// $Id$
+
+/**
+* Implementation of hook_wysiwyg_plugin
+*/
+function wysiwyg_mediaembed_hack_wysiwyg_plugin($editor, $version) {
+  switch ($editor) {
+    case 'ckeditor':
+      return array(
+        'MediaEmbed' => array(
+          'url' => 'http://www.fluidbyte.net/embed-youtube-vimeo-etc-into-ckeditor',
+          'buttons' => array('MediaEmbed' => t('Media Embed Dialog')),
+          'load' => TRUE,
+          'internal' => TRUE,
+        ),
+      );
+  }
+}

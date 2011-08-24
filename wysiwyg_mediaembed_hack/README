@@ -1,0 +1,5 @@
+Installation:
+1. Download the CKEditor MediaEmbed plugin from http://www.fluidbyte.net/embed-youtube-vimeo-etc-into-ckeditor
+2. Extract the contents into sites/all/libraries/ckeditor/plugins folder, so that the file sites/all/libraries/ckeditor/plugins/MediaEmbed/plugin.js is available (notice the case in the plugin name)
+3. Extract this module into the sites/all/modules folder
+4. Enable the module.

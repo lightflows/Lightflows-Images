@@ -1,0 +1,7 @@
+; $Id$
+name = WYSIWYG MediaEmbed Hack
+description = Custom mod to get the CKEditor MediaEmbed plugin to work with wysiwyg module
+package = "Custom"
+core = 6.x
+version = 6.x-1.x-dev
+dependencies[] = wysiwyg

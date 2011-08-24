@@ -1,0 +1,9 @@
+<?php
+function lightflows_images_init() {
+
+drupal_add_js(drupal_get_path('module', 'lightflows_images') .'/js/lightflows_images.js');
+drupal_add_css(drupal_get_path('module', 'lightflows_images') . '/css/lightflows_images.css');
+
+}
+
+
