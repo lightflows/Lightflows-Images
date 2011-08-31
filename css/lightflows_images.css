@@ -1,0 +1,42 @@
+/* @override http://localhost:8888/htdocs/fdev/sites/all/modules/custom/lightflows_images/css/lightflows_images.css?v */
+
+
+.content img.imgright
+{
+	margin:0px 0px 10px 10px;
+	border:1px solid #f00;
+}
+
+.content img.imgleft
+{
+	margin:0px 10px 10px 0px;
+	border:1px solid #00f;
+}
+
+/* removes margins from images */
+.content .image-caption-container .imgleft,
+.content .image-caption-container .imgright
+{
+margin:0;
+border:none;
+}
+
+/* and adds them to the container instead */
+
+.content .image-caption-container.left
+{
+	margin:0px 10px 10px 0px;
+	border:1px solid #00f;
+}
+
+.content .image-caption-container.right
+{
+	margin:0px 10px 10px 0px;
+	border:1px solid #00f;
+}
+
+.content .image-caption-container.none
+{
+	margin:0px 0px 10px 0px;
+	border:1px solid #0f0;
+}
